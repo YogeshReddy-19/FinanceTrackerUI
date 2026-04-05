@@ -1,0 +1,168 @@
+.tns-container {
+  padding-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.tns-cntrl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.tns-search-cont {
+  position: relative;
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+}
+
+.tns-sicon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text2);
+}
+
+.tns-sb {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background-color: var(--card);
+  color: var(--text1);
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.tns-sb:focus {
+  border-color: var(--accent);
+}
+
+.tns-dropdown {
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background-color: var(--card);
+  color: var(--text1);
+  font-size: 0.95rem;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.tns-dropdown option {
+  background-color: var(--card);
+  color: var(--text1);
+}
+
+.tns-dropdown:focus {
+  border-color: var(--accent);
+}
+
+.tns-list-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.tns-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  opacity: 0;
+  animation: slideFadeIn 0.3s ease-out forwards;
+}
+
+.tns-item-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tns-icon {
+  padding: 0.75rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tns-icon.income {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--cincome);
+}
+
+.tns-icon.expense {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--cexpense);
+}
+
+.tns-category {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text1);
+  margin: 0;
+}
+
+.tns-date {
+  font-size: 0.875rem;
+  color: var(--text2);
+  margin: 0;
+}
+
+.tns-amount {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: var(--text1);
+  margin: 0;
+}
+
+.tns-amount.income {
+  color: var(--cincome);
+}
+.tns-amount.expense{
+  color: var(--cexpense);
+}
+.tns-empty {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text2);
+  background-color: var(--card);
+  border-radius: 16px;
+  border: 1px dashed var(--border);
+}
+.tns-delete-btn {
+  background: transparent;
+  border: none;
+  color: var(--text2);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.tns-delete-btn:hover {
+  color: var(--cexpense);
+}
