@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Search, ArrowUpRight, ArrowDownRight, Trash2 } from "lucide-react";
-import "../styles/transactions.css";
+import "../styles/Transactions.css";
 
 const Data = [
     { id: 1, date: '2026-04-02', amount: -1250, category: 'Swiggy/Zomato', type: 'expense' },
