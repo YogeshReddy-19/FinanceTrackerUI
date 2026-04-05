@@ -11,7 +11,7 @@ It features a custom-built, modern UI with dynamic CSS gradient meshes.
 * **Serverless Persistence:** Utilizes browser `localStorage` as a persistent database. Your data survives page refreshes and works completely offline.
 * **Role-Based Access Control:** Built-in toggles for 'Admin' and 'Viewer' modes. Viewers have read-only access, while Admins can add and delete transactions.
 * **Instant Filtering & Sorting:** Client-side data processing allows for real-time sorting by Date or Amount, and filtering by Income/Expense without server lag.
-* **Premium UI:** Custom-built CSS engine featuring dynamic radial gradient backgrounds and frosted glass UI cards (`backdrop-filter: blur()`).
+* **Premium UI:** Custom-built CSS engine featuring dynamic radial gradient backgrounds and UI cards.
 * **Responsive Design:** Layouts that work perfectly on desktop and mobile.
 
 ##  App Walkthrough
