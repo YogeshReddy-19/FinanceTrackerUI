@@ -8,7 +8,7 @@ const PIE_COLORS = ['var(--accent)', '#8B5CF6', '#3B82F6', '#10B981', '#F59E0B',
 
 const Data = [
     { id: 1, date: '2026-04-02', amount: -1250, category: 'Swiggy/Zomato', type: 'expense' },
-    { id: 2, date: '2026-04-01', amount: 85000, category: 'Tech Salary', type: 'income' },
+    { id: 2, date: '2026-04-01', amount: 185000, category: 'Tech Salary', type: 'income' },
     { id: 3, date: '2026-03-28', amount: -18000, category: 'House Rent', type: 'expense' },
     { id: 4, date: '2026-03-25', amount: -850, category: 'Uber/Ola', type: 'expense' },
     { id: 5, date: '2026-03-22', amount: -4500, category: 'Blinkit Groceries', type: 'expense' },
@@ -20,7 +20,7 @@ const Data = [
     { id: 11, date: '2026-03-08', amount: -600, category: 'Metro Card Recharge', type: 'expense' },
     { id: 12, date: '2026-03-05', amount: -5500, category: 'Amazon Shopping', type: 'expense' },
     { id: 13, date: '2026-03-02', amount: -3800, category: 'Blinkit Groceries', type: 'expense' },
-    { id: 14, date: '2026-02-28', amount: 85000, category: 'Tech Salary', type: 'income' },
+    { id: 14, date: '2026-02-28', amount: 185000, category: 'Tech Salary', type: 'income' },
     { id: 15, date: '2026-02-25', amount: -18000, category: 'House Rent', type: 'expense' }
 ];
 
